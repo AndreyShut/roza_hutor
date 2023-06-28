@@ -1,3 +1,22 @@
 body {
-background-color: #858585;
+    margin: 0;
+    overflow: scroll; 
+}
+
+
+
+header{
+width: auto;   
+height: 200px;   
+background-image: url(image/snowsky.jpg);
+background-position: center;
+    background-size: cover;
+}
+
+.box {
+    padding: 100px;  
+    margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 50px;
+     margin-bottom: 50px;
 }
