@@ -6,7 +6,7 @@ width: 80%;
 height: 20%;
 margin-left: auto;
 margin-right: auto;
-border: 3px solid darkblue;
+
 
 background-image: url(image/fon.jpg);
 background-size: cover;
@@ -47,4 +47,17 @@ img {
     padding-top: 0px;
     font-size: 60px;
     font-family: Monotype Corsiva;
+}
+
+a.button7 {
+  font-size: 60px;
+  font-family: Century Gothic;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  background: #01438a;
+} 
+a.button7:hover { background: #0d71db; }
+a.button7:active {
+  background: #01438a;
 }
