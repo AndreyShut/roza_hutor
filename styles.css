@@ -39,3 +39,12 @@ img {
     font-size: 20px;
     font-family: Century Gothic;
 }
+
+.text2 {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    font-size: 60px;
+    font-family: Monotype Corsiva;
+}
