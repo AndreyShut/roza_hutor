@@ -1,14 +1,18 @@
 
 body {
 scroll-behavior: smooth;
+margin-top: 0;
 width: 80%;
 height: 20%;
 margin-left: auto;
 margin-right: auto;
+border: 3px solid darkblue;
+
+background-image: url(image/fon.jpg);
+background-size: cover;
 }
 
 header {
-padding: 0;
 width: auto;   
 height: 150px;   
 background-image: url(image/snowsky.jpg);
@@ -22,11 +26,9 @@ img {
     border-radius: 10%;
 }
 
-
-
 .box {
     padding: 100px;  
-    margin: 10px;
+    background-color: white;
 }
 
 .text {
@@ -34,6 +36,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Century Gothic;
 }
