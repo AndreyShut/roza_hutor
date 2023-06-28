@@ -1,22 +1,39 @@
+
 body {
-    margin: 0;
-    overflow: scroll; 
+scroll-behavior: smooth;
+width: 80%;
+height: 20%;
+margin-left: auto;
+margin-right: auto;
 }
 
-
-
-header{
+header {
+padding: 0;
 width: auto;   
-height: 200px;   
+height: 150px;   
 background-image: url(image/snowsky.jpg);
 background-position: center;
-    background-size: cover;
+background-size: cover;
 }
+
+
+img {
+    border:  3px solid black;
+    border-radius: 10%;
+}
+
+
 
 .box {
     padding: 100px;  
-    margin-left: 50px;
-     margin-right: 50px;
-     margin-top: 50px;
-     margin-bottom: 50px;
+    margin: 10px;
+}
+
+.text {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: Century Gothic;
 }
